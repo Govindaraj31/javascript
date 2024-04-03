@@ -240,229 +240,229 @@ console.log(grade1);
   
 //conditional Ternary Operators 
 
-// let player1 = "rock";
-// let computer1 = "paper";
+let player1 = "rock";
+let computer1 = "paper";
 
-// let result = player1 === computer1 ? "TIE !" :
-//              player1 === "paper" && computer1 === "rock" ? "player Win" :
-//              player1 === "scissor" && computer1 === "paper" ? "player win" :
-//              player1 === "rock" && computer1 === "scissor" ?  "player win" : "computer win" ;
-// console.log(result);
+let result = player1 === computer1 ? "TIE !" :
+             player1 === "paper" && computer1 === "rock" ? "player Win" :
+             player1 === "scissor" && computer1 === "paper" ? "player win" :
+             player1 === "rock" && computer1 === "scissor" ?  "player win" : "computer win" ;
+console.log(result);
 
-//let myWebsite = alert("Hi Govindaraj");
-//console.log(myWebsite);
+let myWebsite = alert("Hi Govindaraj");
+console.log(myWebsite);
 
-// let myWebsite = confirm("Hi Govindaraj");
-// console.log(myWebsite);
+let myWebsite1 = confirm("Hi Govindaraj");
+console.log(myWebsite);
 
-// let myData = prompt("Enter your name");
-// console.log(myData ?? "you didn't enter your name");
+let myData = prompt("Enter your name");
+console.log(myData ?? "you didn't enter your name");
 
-// let myData = prompt("Enter your Name");
+let myData1 = prompt("Enter your Name");
 
-// if(myData)
-// {
-//     console.log(myData ?? "you didn't enter your name");
-// }
-// else
-// {
-//     console.log("you didn't enter your name");
-// }
+if(myData)
+{
+    console.log(myData ?? "you didn't enter your name");
+}
+else
+{
+    console.log("you didn't enter your name");
+}
 
-// console.log(myData.trim().length);
+console.log(myData.trim().length);
 
-// let player2 = "rock";
-// let computer2 = "scissor";
+let player2 = "rock";
+let computer2 = "scissor";
 
-// let result1 = player2 === computer2 ? "tie" :
-//               player2 === "paper" &&  computer2 === "rock" ? "player win" :
-//               player2 === "scissor" && computer2 === "paper" ? "player win" :
-//               player2 === "rock" && computer2 === "scissor" ? "player win" : "computer win" ;
+let result1 = player2 === computer2 ? "tie" :
+              player2 === "paper" &&  computer2 === "rock" ? "player win" :
+              player2 === "scissor" && computer2 === "paper" ? "player win" :
+              player2 === "rock" && computer2 === "scissor" ? "player win" : "computer win" ;
 
-// console.log(result1);
+console.log(result1);
 
 
-// let playGame = confirm("shall we play a game rock,paper, or scissors ?");
+let playGame = confirm("shall we play a game rock,paper, or scissors ?");
 
-// if(playGame)
-// {
-//     let playerChoice = prompt("Enter your Choice rock,paper, or scissors");
+if(playGame)
+{
+    let playerChoice = prompt("Enter your Choice rock,paper, or scissors");
 
-//     if(playerChoice)
-//     {
-//         let playerOne = playerChoice.trim().toLowerCase();
+    if(playerChoice)
+    {
+        let playerOne = playerChoice.trim().toLowerCase();
 
-//         if(playerOne === "rock" || playerOne === "paper" || playerOne === "scissors" )
-//         {
-//             let computerChoice = Math.floor(Math.random()*3 + 1); 
-//             let computer = computerChoice === 1 ? "rock" :
-//                            computerChoice === 2 ? "paper" : "scissors";
+        if(playerOne === "rock" || playerOne === "paper" || playerOne === "scissors" )
+        {
+            let computerChoice = Math.floor(Math.random()*3 + 1); 
+            let computer = computerChoice === 1 ? "rock" :
+                           computerChoice === 2 ? "paper" : "scissors";
 
-//             let result = playerOne == computer ? "TIE !" :
-//                         playerOne == "paper" && computerChoice == "rock" ?  
-//                         `PlayerOne: ${playerOne}\nComputer: ${computer}\nPlayerOne   wins`:
-//                          playerOne == "rock" && computerChoice == "scissors" ? 
-//                          `PlayerOne: ${playerOne}\nComputer: ${computer}\nPlayerOne wins` :
-//                          playerOne == "scissors" && computerChoice == "paper" ? 
-//                          `PlayerOne: ${playerOne}\nComputer: ${computer}\nPlayerOne wins`:
-//                          `PlayerOne: ${playerOne}\nComputer: ${computer}\nComputer wins`;
+            let result = playerOne == computer ? "TIE !" :
+                        playerOne == "paper" && computerChoice == "rock" ?  
+                        `PlayerOne: ${playerOne}\nComputer: ${computer}\nPlayerOne   wins`:
+                         playerOne == "rock" && computerChoice == "scissors" ? 
+                         `PlayerOne: ${playerOne}\nComputer: ${computer}\nPlayerOne wins` :
+                         playerOne == "scissors" && computerChoice == "paper" ? 
+                         `PlayerOne: ${playerOne}\nComputer: ${computer}\nPlayerOne wins`:
+                         `PlayerOne: ${playerOne}\nComputer: ${computer}\nComputer wins`;
             
-//                          alert(result);
-//             let playAgain = confirm("play Again");
-//             playAgain ? location.reload() : alert("ok thanks for playing");
-//         }
-//         else
-//         {
-//            alert("You didn't enter rock, paper, or scissors.");
-//         }
-//     }
-//     else
-//     {
-//          alert("I guess you change your mind. may be later.");
-//     }
-// }
-// else
-// {
-//         alert("i understand you not interest play the game. it's ok thank you.");
-// }
+                         alert(result);
+            let playAgain = confirm("play Again");
+            playAgain ? location.reload() : alert("ok thanks for playing");
+        }
+        else
+        {
+           alert("You didn't enter rock, paper, or scissors.");
+        }
+    }
+    else
+    {
+         alert("I guess you change your mind. may be later.");
+    }
+}
+else
+{
+        alert("i understand you not interest play the game. it's ok thank you.");
+}
    
-// console.log(result);
+console.log(result);
 
-// let playGame = confirm("Shall we Play rock, paper, scissors");
+let playGame0 = confirm("Shall we Play rock, paper, scissors");
 
-// if(playGame)
-// {
-//     let playerChoice = prompt("Enter your Choose");
+if(playGame0)
+{
+    let playerChoice = prompt("Enter your Choose");
 
-//     if(playerChoice)
-//     {
-//         let playerOne = playerChoice.trim().toLowerCase();
+    if(playerChoice)
+    {
+        let playerOne = playerChoice.trim().toLowerCase();
 
-//         if(playerOne == "rock" || playerOne == "paper" || playerOne == "scissors")
-//         {
-//           let computerChoice = Math.floor(Math.random()*3 + 1);
+        if(playerOne == "rock" || playerOne == "paper" || playerOne == "scissors")
+        {
+          let computerChoice = Math.floor(Math.random()*3 + 1);
 
-//           let computer = computerChoice == 1 ? "rock" :
-//                          computerChoice == 2 ? "paper" : "scissor";
+          let computer = computerChoice == 1 ? "rock" :
+                         computerChoice == 2 ? "paper" : "scissor";
           
-//           let result = playerOne == computer ? "TIE !" :
-//                        playerOne == "rock" && computer == "paper" ?
-//                        `playone ${playerOne}\ncomputer ${computer}\n computer wins`:
-//                        playerOne == "paper" && computer == "scissors" ?
-//                        `playone ${playerOne}\ncomputer ${computer}\n computer wins`:
-//                        playerOne == "scissors" && computer == "rock" ?
-//                        `playone ${playerOne}\ncomputer ${computer}\n computer wins`:
-//                        `playone ${playerOne}\ncomputer ${computer}\n player wins`;
+          let result = playerOne == computer ? "TIE !" :
+                       playerOne == "rock" && computer == "paper" ?
+                       `playone ${playerOne}\ncomputer ${computer}\n computer wins`:
+                       playerOne == "paper" && computer == "scissors" ?
+                       `playone ${playerOne}\ncomputer ${computer}\n computer wins`:
+                       playerOne == "scissors" && computer == "rock" ?
+                       `playone ${playerOne}\ncomputer ${computer}\n computer wins`:
+                       `playone ${playerOne}\ncomputer ${computer}\n player wins`;
 
-//                         alert(result);
-//                 let playAgain = confirm("play aGain");
-//                 playAgain ? location.reload() : alert("ok thanks playing");
+                        alert(result);
+                let playAgain = confirm("play aGain");
+                playAgain ? location.reload() : alert("ok thanks playing");
 
-//         }
-//         else
-//         {
-//             alert("you didn't give rock, paper, scissors");
-//         }
+        }
+        else
+        {
+            alert("you didn't give rock, paper, scissors");
+        }
 
-//     }
-//     else
-//     {
-//         alert("i guess you change ur mind. may be later")
-//     }
-// }
-// else
-// {
-//      alert("i understand your not interest in game. thank you");
-// }
+    }
+    else
+    {
+        alert("i guess you change ur mind. may be later")
+    }
+}
+else
+{
+     alert("i understand your not interest in game. thank you");
+}
 
-// let playGame = confirm("shall we play rock, paper, scissors");
+let playGame1 = confirm("shall we play rock, paper, scissors");
 
-// if(playGame)
-// {
-//      let playerChoice = prompt("enter your choice");
+if(playGame1)
+{
+     let playerChoice = prompt("enter your choice");
 
-//      if(playerChoice)
-//      {
-//         let playerOne = playerChoice.trim().toLowerCase();
+     if(playerChoice)
+     {
+        let playerOne = playerChoice.trim().toLowerCase();
 
-//         if(playerOne === "rock" || playerOne === "paper" || playerOne === "scissors")
-//            {
-//              let computerChoice = Math.floor(Math.random()*3  + 1);
+        if(playerOne === "rock" || playerOne === "paper" || playerOne === "scissors")
+           {
+             let computerChoice = Math.floor(Math.random()*3  + 1);
 
-//              let computer = computerChoice === 1 ? "rock" : 
-//                             computerChoice === 2 ? "paper" : "scissors";
+             let computer = computerChoice === 1 ? "rock" : 
+                            computerChoice === 2 ? "paper" : "scissors";
              
-//              let result = playerOne == computer ? "Tie !" :
-//                           playerOne == "rock" && computer == "paper" ?
-//                           `playerone: ${playerOne}\ncomputer: ${computer}\ncomputer win!` :
-//                           playerOne == "paper" && computer == "scissors" ?
-//                           `playerone: ${playerOne}\ncomputer: ${computer}\ncomputer win!` :
-//                           playerOne == "scissors" && computer == "rock" ?
-//                           `playerone: ${playerOne}\ncomputer: ${computer}\ncomputer win!` :
-//                           `playerone: ${playerOne}\ncomputer: ${computer}\nplayer win!` ;
-//                           alert(result);
+             let result = playerOne == computer ? "Tie !" :
+                          playerOne == "rock" && computer == "paper" ?
+                          `playerone: ${playerOne}\ncomputer: ${computer}\ncomputer win!` :
+                          playerOne == "paper" && computer == "scissors" ?
+                          `playerone: ${playerOne}\ncomputer: ${computer}\ncomputer win!` :
+                          playerOne == "scissors" && computer == "rock" ?
+                          `playerone: ${playerOne}\ncomputer: ${computer}\ncomputer win!` :
+                          `playerone: ${playerOne}\ncomputer: ${computer}\nplayer win!` ;
+                          alert(result);
                            
-//                           let playAgain = confirm ("playagain");
-//                           playAgain ? location.reload() : alert("thanks for playing")
-//             }
-//         else
-//         {
-//            alert("you didin't enter the correct choice");
-//         }
-//      }
-//      else
-//      {
-//         alert("i guess change your mind. may be later");
-//      }
-// }
-// else
-// {
-//     alert("i think ur not interest to play this game");
-// }
+                          let playAgain = confirm ("playagain");
+                          playAgain ? location.reload() : alert("thanks for playing")
+            }
+        else
+        {
+           alert("you didin't enter the correct choice");
+        }
+     }
+     else
+     {
+        alert("i guess change your mind. may be later");
+     }
+}
+else
+{
+    alert("i think ur not interest to play this game");
+}
 
-//loop
+loop
 
 //while loop
 
-// let i=1;
+let i=1;
 
-// while(i<=50)
-// {
-//     console.log(i);
-//     i=i+10;
-// }
+while(i<=50)
+{
+    console.log(i);
+    i=i+10;
+}
 
-// //do while loop
+//do while loop
 
-// let n=50;
+let n=50;
 
-// do
-// { 
-//     console.log(n);
-//     n= n+1;
-// }
-// while(n<=50)
+do
+{ 
+    console.log(n);
+    n= n+1;
+}
+while(n<=50)
 
-// //for loop 
+//for loop 
 
-// let name ="govindaraj";
+let name ="govindaraj";
 
-// for(i=0;i<= name.length;i++)
-// {
-//     console.log(name.charAt(i));
-// }
+for(i=0;i<= name.length;i++)
+{
+    console.log(name.charAt(i));
+}
 
-// //nested for loop
+//nested for loop
 
-// let name1 ="sai";
+let name1 ="sai";
 
-// for(let i=1;i <= name1.length;i++)
-// {
-//     for(let j=1;j <= name1.length;j++)
-//     {
-//         console.log(i,j);
-//     }
-// }
+for(let i=1;i <= name1.length;i++)
+{
+    for(let j=1;j <= name1.length;j++)
+    {
+        console.log(i,j);
+    }
+}
 
 let x = 0;
 
@@ -477,17 +477,17 @@ while(x < 10)
 
 console.log(x);
 
-// let text ='govindaraj';
-// for (let i=0;i<=10;i++)
-// {
-//     if(i == 3)
-//     {
-//         continue;
-//     }
-//     text = text + i;
-// }
+let text1 ='govindaraj';
+for (let i=0;i<=10;i++)
+{
+    if(i == 3)
+    {
+        continue;
+    }
+    text1 = text1 + i;
+}
 
-// console.log(text);
+console.log(text1);
   
 let y=1;
 
